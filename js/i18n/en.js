@@ -1,0 +1,66 @@
+// Английский
+window.I18N = window.I18N || {};
+I18N.en = {
+  sub:"Legend Walk", stamps:"Stamps",
+  navWalk:"Legends", navMap:"Map", navChal:"Challenges", navMe:"Profile", navMore:"Nubi",
+  all:"All", sealGot:"Got", back:"← Back", userLegend:"submitted by {n}", tagUser:"user", where:"Location",
+  addBtn:"+ Submit a legend",
+  // Отметка по GPS
+  checkin:"Stamp it on site", locating:"Finding your location…",
+  tooFar:"You are {d} away. Get within {r} m to collect the stamp.",
+  gpsDenied:"No location access. Allow location in your browser settings.",
+  gpsErr:"Couldn't get your location. Try again outdoors.",
+  checkinHint:"The stamp only works within {r} m of the place.",
+  distAway:"{d} away", kakao:"Open in Kakao Map", showMap:"Show on map",
+  visited:"Visited {d}", sealBig:"Visited", noTitle:"No title", testStamp:"test stamp",
+  myLoc:"Locate me",
+  // Челленджи
+  chH:"Challenges", chActive:"Active", chDoneH:"Completed", chDone:"Completed!", reward:"Reward title: {t}", seeAll:"All challenges →",
+  chChain:"Route · within {d} days", chPeriod:"Limited time · {a} – {b}", chWeekend:"Weekend",
+  // Профиль
+  meH:"Profile", edit:"Change nickname", save:"Save", cancel:"Cancel",
+  stStamps:"Stamps", stTitles:"Titles", stAdded:"Legends",
+  titlesH:"Titles", titlesHint:"Tap Wear to show a title next to your nickname.", wear:"Wear", worn:"Wearing",
+  bookH:"Stamp book", bookEmpty:"No stamps yet",
+  rankH:"This month's ranking", rankNote:"Other players are examples. Real rankings appear once the server is connected.", you:"you",
+  settingsH:"Settings", testMode:"Test mode", testHint:"When on, the stamp button works without a GPS check. Handy for testing at home.",
+  testOn:"Test mode on", testOff:"Test mode off",
+  reset:"Delete all data", resetQ:"This deletes your stamps, titles, legends and nickname. Continue?", resetYes:"Delete everything",
+  // Добавление легенды
+  addH:"Submit a legend", fName:"Place name", fNamePh:"e.g. Seobongsan summit", fRegion:"Region",
+  fPlace:"Address or directions", fPlacePh:"e.g. Hyangnam, Hwaseong",
+  fStory:"The legend", fStoryPh:"What locals tell, what the sign says",
+  fSubmit:"Submit legend", fNote:"Saved on this phone only for now. Once the server is connected, everyone will see it. Write in any language.",
+  // Раздел «Нуби»
+  moreH:"More in Nubi", inUse:"Live", soon:"Coming soon",
+  sec:{walk:["Legend Walk","Visit legendary places, collect stamps"], meet:["Meetups","Find people to walk and train with"], gear:["Gear Show","Share photos of your outdoor gear"],
+       cup:["Contests & Challenges","Local contests, time-limited challenges"], cult:["Culture","Festivals, shows, local events"]},
+  // Уведомления
+  toastStamp:"Stamped", toastTitle:"New title: {t}", toastAdded:"Legend submitted",
+  toastWorn:"Now wearing “{t}”", toastSaved:"Saved",
+  origLang:"This legend was written in {l}. The full app will translate it automatically.",
+  // Первый запуск
+  wTitle:"Walk to the legends around you", wText:"Visit places tied to local legends, collect stamps, earn titles, and add the stories you know.",
+  wLang:"Language", wNick:"Nickname", wNickPh:"2–12 characters", wStart:"Start", nickErr:"Nickname must be 2–12 characters.",
+  langName:{ko:"Korean", ru:"Russian", en:"English"},
+  hLegend:"The legend", hFact:"What really happened", hFind:"Find it on site",
+  noPin:"location pending", approxNote:"Approximate location: stamps work within {r} m.",
+  noCoords:"The exact spot isn't marked yet. If you're there, turn on Profile → Mapping mode and record it.",
+  markMode:"Mapping mode", markHint:"Stand at the legend's place and tap the button to save that spot as its location.",
+  pinHere:"📍 Save this spot as the legend's location", pinSaved:"Saved: {c}", pinOk:"Location saved",
+  markOn:"Mapping mode on", markOff:"Mapping mode off",
+  pinsH:"Saved locations ({n})", pinsCopy:"Copy and send to the developer", pinsCopied:"Copied",
+  photoH:"Photo of the place", takePhoto:"Take a photo in the app", retake:"Retake", shutter:"Shoot",
+  photoNeed:"A photo is required. Shoot the place with the app camera on site and the location is added automatically.",
+  photoCoords:"Taken {d} · {c}", photoBy:"Photo: {n} · {d}",
+  camDenied:"No camera access. Allow the camera in your browser settings.", camErr:"Couldn't open the camera.",
+  photoGpsFail:"Couldn't get your location, so the photo wasn't saved. Try again outdoors.",
+  findBtn:"Found a sign", findH:"Found a sign", findIntro:"Found a sign with a legend? Photograph it in the app. The location is recorded automatically; later AI reads the text, checks it against other sources and turns it into a new legend.",
+  findShoot:"Photograph the sign", findTip1:"Shoot straight on so the text fills the frame.", findTip2:"If there's glare, step to one side.", findTip3:"For long text, take several shots: top and bottom.",
+  findNote:"Note (optional)", findNotePh:"e.g. fork below the Seobongsan summit", findSaved:"Find saved",
+  findsH:"My finds ({n})", findsHint:"Send opens your phone's share menu with the photo and location. For now, send finds to the developer to be added.",
+  findSend:"Send", findSent:"Sent", findSentTag:"sent", findWaitTag:"waiting",
+  findCopied:"Location copied. Long-press the photo to save it.", findLongPress:"Long-press the photo to save it, then send it in a messenger.", findShareErr:"Couldn't share",
+  qDark:"The photo is too dark; the text may be unreadable. Try again.", qBlurry:"The photo looks blurry. Try again.",
+  locale:"en-US"
+};

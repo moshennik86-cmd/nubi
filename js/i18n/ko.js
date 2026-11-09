@@ -1,0 +1,66 @@
+// Корейский — язык по умолчанию
+window.I18N = window.I18N || {};
+I18N.ko = {
+  sub:"전설산책", stamps:"모은 도장",
+  navWalk:"전설", navMap:"지도", navChal:"챌린지", navMe:"내 정보", navMore:"누비",
+  all:"전체", sealGot:"인증", back:"← 뒤로", userLegend:"{n} 님 제보", tagUser:"제보", where:"위치",
+  addBtn:"+ 전설 제보하기",
+  // Отметка по GPS
+  checkin:"현장에서 도장 찍기", locating:"현재 위치를 확인하는 중…",
+  tooFar:"이 장소에서 {d} 떨어져 있습니다. {r}m 안으로 들어가야 도장을 찍을 수 있습니다.",
+  gpsDenied:"위치 권한이 없습니다. 브라우저 설정에서 위치 접근을 허용해 주세요.",
+  gpsErr:"위치를 확인하지 못했습니다. 야외에서 다시 시도해 주세요.",
+  checkinHint:"장소 {r}m 안에 있을 때만 도장이 찍힙니다.",
+  distAway:"여기서 {d}", kakao:"카카오맵에서 보기", showMap:"지도에서 보기",
+  visited:"{d} 방문", sealBig:"방문 인증", noTitle:"칭호 없음", testStamp:"테스트 도장",
+  myLoc:"내 위치",
+  // Челленджи
+  chH:"챌린지", chActive:"진행 중", chDoneH:"완료", chDone:"완료!", reward:"보상 칭호: {t}", seeAll:"모든 챌린지 보기 →",
+  chChain:"연결 코스 · {d}일 안에", chPeriod:"기간 한정 · {a} ~ {b}", chWeekend:"주말 도전",
+  // Профиль
+  meH:"내 정보", edit:"닉네임 바꾸기", save:"저장", cancel:"취소",
+  stStamps:"도장", stTitles:"칭호", stAdded:"제보",
+  titlesH:"칭호", titlesHint:"얻은 칭호를 눌러 닉네임 옆에 달 수 있습니다.", wear:"달기", worn:"착용 중",
+  bookH:"도장첩", bookEmpty:"아직 도장이 없습니다",
+  rankH:"이번 달 순위", rankNote:"다른 이용자는 예시입니다. 서버를 연결하면 실제 순위가 표시됩니다.", you:"나",
+  settingsH:"설정", testMode:"테스트 모드", testHint:"켜면 GPS 없이 버튼만으로 도장을 찍을 수 있습니다. 집에서 시험할 때 쓰세요.",
+  testOn:"테스트 모드 켜짐", testOff:"테스트 모드 꺼짐",
+  reset:"모든 데이터 초기화", resetQ:"도장, 칭호, 제보, 닉네임이 모두 지워집니다. 계속할까요?", resetYes:"모두 지우기",
+  // Добавление легенды
+  addH:"전설 제보하기", fName:"장소 이름", fNamePh:"예: 서봉산 정상", fRegion:"지역",
+  fPlace:"주소 또는 위치 설명", fPlacePh:"예: 화성시 향남읍",
+  fStory:"전해 오는 이야기", fStoryPh:"어르신께 들은 이야기, 안내판 내용 등",
+  fSubmit:"제보 올리기", fNote:"지금은 이 휴대폰에만 저장됩니다. 서버를 연결하면 모두에게 보입니다. 원하는 언어로 써도 됩니다.",
+  // Раздел «Нуби»
+  moreH:"누비의 다른 공간", inUse:"이용 중", soon:"준비 중",
+  sec:{walk:["전설산책","전설 장소 방문하고 도장 모으기"], meet:["모임","함께 걷고 운동할 사람 찾기"], gear:["장비 자랑","등산·운동 장비 사진 공유"],
+       cup:["대회·챌린지","지역 대회, 기간 한정 챌린지"], cult:["문화","축제, 공연, 지역 행사"]},
+  // Уведомления
+  toastStamp:"도장을 찍었습니다", toastTitle:"새 칭호: {t}", toastAdded:"제보가 등록되었습니다",
+  toastWorn:"‘{t}’ 칭호를 달았습니다", toastSaved:"저장했습니다",
+  origLang:"이 제보는 {l}로 작성되었습니다. 정식 서비스에서는 자동 번역이 제공됩니다.",
+  // Первый запуск
+  wTitle:"동네의 전설을 찾아 걷는 앱", wText:"전설이 깃든 장소를 찾아가 도장을 모으고, 칭호를 얻고, 내가 아는 이야기도 남겨 보세요.",
+  wLang:"언어", wNick:"닉네임", wNickPh:"2~12자", wStart:"시작하기", nickErr:"닉네임은 2~12자로 입력하세요.",
+  langName:{ko:"한국어", ru:"러시아어", en:"영어"},
+  hLegend:"전설", hFact:"실제로는", hFind:"현장에서 찾아보기",
+  noPin:"위치 확인 중", approxNote:"대략적인 위치입니다. {r}m 안에서 도장을 찍을 수 있습니다.",
+  noCoords:"아직 정확한 위치가 등록되지 않았습니다. 현장에 계시다면 ‘내 정보 → 위치 기록 모드’를 켜고 위치를 기록해 주세요.",
+  markMode:"위치 기록 모드", markHint:"전설 장소에 서서 버튼을 누르면 그 자리가 장소 위치로 저장됩니다.",
+  pinHere:"📍 지금 이 자리를 장소 위치로 기록", pinSaved:"기록됨: {c}", pinOk:"위치를 기록했습니다",
+  markOn:"위치 기록 모드 켜짐", markOff:"위치 기록 모드 꺼짐",
+  pinsH:"기록한 위치 ({n})", pinsCopy:"복사해서 개발자에게 보내기", pinsCopied:"복사했습니다",
+  photoH:"장소 사진", takePhoto:"앱으로 장소 사진 찍기", retake:"다시 찍기", shutter:"촬영",
+  photoNeed:"사진이 있어야 제보할 수 있습니다. 현장에서 앱 카메라로 찍으면 위치가 자동으로 기록됩니다.",
+  photoCoords:"{d} 촬영 · {c}", photoBy:"{n} 님 사진 · {d}",
+  camDenied:"카메라 권한이 없습니다. 브라우저 설정에서 카메라 접근을 허용해 주세요.", camErr:"카메라를 열 수 없습니다.",
+  photoGpsFail:"위치를 확인하지 못해 사진이 저장되지 않았습니다. 야외에서 다시 찍어 주세요.",
+  findBtn:"안내판 발견", findH:"안내판 발견", findIntro:"전설이 적힌 안내판을 찾았다면 앱으로 찍어 두세요. 위치가 자동으로 기록되고, 나중에 AI가 내용을 읽고 다른 자료와 대조해 새 전설로 만듭니다.",
+  findShoot:"안내판 찍기", findTip1:"글자가 화면에 꽉 차게, 정면에서 찍으세요.", findTip2:"빛 반사가 생기면 한 걸음 옆으로 비켜서 찍으세요.", findTip3:"글이 길면 위아래로 나눠 여러 장 찍어도 됩니다.",
+  findNote:"메모 (선택)", findNotePh:"예: 서봉산 정상 아래 갈림길", findSaved:"발견을 저장했습니다",
+  findsH:"내 발견 ({n})", findsHint:"‘보내기’를 누르면 사진과 위치를 공유할 수 있습니다. 지금은 개발자에게 보내 주시면 새 전설로 추가합니다.",
+  findSend:"보내기", findSent:"보냈습니다", findSentTag:"보냄", findWaitTag:"처리 대기",
+  findCopied:"위치를 복사했습니다. 사진을 길게 눌러 저장하세요.", findLongPress:"사진을 길게 눌러 저장한 뒤 메신저로 보내세요.", findShareErr:"공유하지 못했습니다",
+  qDark:"사진이 너무 어둡습니다. 글자가 안 보일 수 있으니 다시 찍어 보세요.", qBlurry:"사진이 흔들린 것 같습니다. 다시 찍어 보세요.",
+  locale:"ko-KR"
+};

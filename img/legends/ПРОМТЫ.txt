@@ -1,0 +1,42 @@
+ПРОМТЫ ДЛЯ НАСТОЯЩИХ ИЛЛЮСТРАЦИЙ (на будущее)
+=============================================
+Сейчас в приложении рисунки собраны кодом. Если захотите заменить их
+на нарисованные (нейросеть или художник):
+1. Сгенерируйте картинку по промту ниже, формат 4:3 (например 1200x900).
+2. Сохраните как img/legends/<id>.webp (id — слово в скобках).
+3. Напишите мне — я впишу id в список ART_IMAGES в js/art.js.
+
+ОБЩИЙ СТИЛЬ (добавлять в начало каждого промта):
+Flat layered illustration inspired by Korean minhwa folk painting, soft muted
+palette of indigo, pine green, ochre and vermilion, simple shapes, gentle
+paper texture, no text, no letters, 4:3, consistent collectible card style.
+
+СЦЕНЫ:
+(yongju)      Buddhist temple hall with curved eaves at dawn, red hongsalmun gate in front, a dragon holding a glowing pearl rising into the sky above the roof
+(yungneung)   Joseon royal tomb mound among pine trees, round pond like a pearl in front, a king in red robes looking at caterpillars on a pine branch
+(geolleung)   Two royal tomb mounds separated by a small forest at sunset, a path through the woods connecting them
+(hwaseong)    Hwaseong fortress wall and gate pavilion, a royal procession slowly crossing a mountain pass, the king looking back
+(emille)      Huge bronze Silla temple bell hanging in a wooden frame, celestial maidens relief on it, sound waves like ripples
+(arang)       Riverside pavilion on a cliff at night under a full moon, bamboo grove below, a single white butterfly glowing
+(chamseong)   Stone altar on a mountain summit above the sea at dawn, a lone hornbeam tree growing on top of the altar
+(seobongsan)  A golden phoenix with long red tail spreading wings over a forested mountain peak at dawn
+(swingil)     A tall dark cliff, a young monk hanging from its edge doing pull-ups, a village girl in hanbok watching below, sunset
+(nunmul)      A rock weeping tear drops in a dark forest at night, a girl in hanbok kneeling before it
+(geondalsan)  A rocky bare mountain with few trees, looking like a rough rowdy figure from close up, daylight
+(jeunggeo)    An ancient giant zelkova tree with a straw rope and white paper strips tied around the trunk, a lightning-split stump beside it
+(samcheon)    Joseon soldiers with red and yellow flags hidden in a valley at dusk, horses, ambush scene without gore
+(jinesan)     A giant red centipede breathing fog over a mountain, Japanese soldiers lost in the mist, Korean villagers safe
+(joam)        A tidal river winding three times around a village at low tide, aerial view
+(dangseong)   An ancient port fortress on a hill above the sea at night, two monks walking to the shore, a sailing ship
+(jebudo)      A road across the seabed opening at low tide toward a green island, people walking on it
+(salgoji)     A small boat in a storm in a narrow strait, a boatman pointing at the danger, lightning
+(bonghyeol)   Smoke rising from a mountain cave, something golden flashing out of it, a Qing emperor shielding his eye
+(bugyang)     An old man in formal Joseon dress kneeling and weeping on a road before a palanquin, a stone stele behind
+(hyoja-tiger) A tiger carrying a young man on its back over night mountains, a medicine bag in his hands
+(aegineung)   A small grassy tomb mound with a stone table, a lonely pine, dusk
+(geumbul)     A golden Buddha statue shedding tears beside an old temple well
+(yeogae)      An old village well at night with two red flowers growing beside it, a calm and respectful mood
+(mubongsan)   Mountain ridges shaped like a dancing phoenix, the phoenix itself dancing in the sky above
+(chilbosan)   A golden rooster on a mountain under seven stars, thunderclouds approaching, thieves fleeing below
+(geumdang)    A pond glittering with gold dust, people panning for gold in early Joseon clothes, morning
+(igon)        A scholar in winter catching a carp through a hole in a frozen river, a red filial-piety gate in the background
