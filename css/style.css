@@ -231,3 +231,7 @@ body{-webkit-tap-highlight-color:transparent}
 .book button{position:relative;overflow:hidden;padding:0;align-content:end}
 .book .stamp-art{position:absolute;inset:0;opacity:.35}
 .book button span{position:relative;padding:6px}
+
+/* Пеший подъём */
+.card.ascent{margin-top:16px;gap:8px}
+.toast{border-radius:16px;line-height:1.45}

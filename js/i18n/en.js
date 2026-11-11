@@ -25,7 +25,7 @@ I18N.en = {
   rankH:"This month's ranking", rankNote:"Other players are examples. Real rankings appear once the server is connected.", you:"you",
   settingsH:"Settings", testMode:"Test mode", testHint:"When on, the stamp button works without a GPS check. Handy for testing at home.",
   testOn:"Test mode on", testOff:"Test mode off",
-  reset:"Delete all data", resetQ:"This deletes your stamps, titles, legends and nickname. Continue?", resetYes:"Delete everything",
+  reset:"Delete all data", resetQ:"This deletes your stamps, titles, legends, nickname and the link to your server account. It can't be undone. Continue?", resetYes:"Delete everything",
   // Добавление легенды
   addH:"Submit a legend", fName:"Place name", fNamePh:"e.g. Seobongsan summit", fRegion:"Region",
   fPlace:"Address or directions", fPlacePh:"e.g. Hyangnam, Hwaseong",
@@ -62,5 +62,22 @@ I18N.en = {
   findSend:"Send", findSent:"Sent", findSentTag:"sent", findWaitTag:"waiting",
   findCopied:"Location copied. Long-press the photo to save it.", findLongPress:"Long-press the photo to save it, then send it in a messenger.", findShareErr:"Couldn't share",
   qDark:"The photo is too dark; the text may be unreadable. Try again.", qBlurry:"The photo looks blurry. Try again.",
+  // Сервер
+  sending:"Sending…", nickTaken:"That nickname is taken. Try another.", nickChanged:"Your nickname was taken, so you're now “{n}”. You can change it in your profile.",
+  offlineBanner:"No connection to the server. Stamps are saved on this phone only and don't count toward points or rankings.",
+  offlineNote:"No server connection: stamp saved on this phone only, no points.", offlineTag:"offline",
+  ptsToast:"Collection +{c} · Hikes +{h}", walkedToast:"Hike on foot counted!", bonusToast:"Bonus +{p}: {r}",
+  errAlready:"You already checked in here today. Come back tomorrow!", errAcc:"GPS is imprecise (±{a} m). Wait a moment or move to open ground.",
+  errTeleport:"Too fast since your last check-in — nobody gets here that quickly.", errServer:"The server didn't respond. Please try again.",
+  checkinAgain:"Check in again (hike)", visitedTodayNote:"You already checked in here today. Come back tomorrow for more hike points.",
+  diffLbl:"Difficulty: {d} points", keeperLbl:"Keeper of the month: {n} ({c})", keeperNone:"No keeper yet. Visit 3 times this month to become one.",
+  ascentBtn:"Start the climb here", ascentHint:"Tap at the trailhead, at least 1 km from the place. Climbing on foot gives ×1.5 points.", ascentOn:"Climb started at {t}", ascentGo:"Stamp at the top within 4 hours.", ascentFar:"You're too close to the place. Start at least 1 km away.",
+  stColl:"Collection", stHikes:"Hikes (month)", boardColl:"Collection · month", boardHikes:"Hikes · month", boardAll:"Collection · all time", boardLoading:"Loading…", boardEmpty:"Nobody yet. Be the first!",
+  rankNoteServer:"Rankings are calculated by the server. Test stamps don't count.",
+  pendingTag:"in review", pendingNote:"This legend is in review. Once approved, everyone can see it and check in here.",
+  fNoteServer:"Your legend and photo go to the server. After review everyone sees it and you get 100 points.", toastSubmitted:"Legend sent for review",
+  findsHintServer:"Sign photos upload to the server automatically. 30 points after review.", findOnServer:"on server", findUploaded:"Sign photo uploaded",
+  pinOkServer:"Location saved and sent for review",
+  accountAnon:"You have a temporary account tied to this phone. Clearing app data will erase your progress. Kakao login is coming soon.",
   locale:"en-US"
 };

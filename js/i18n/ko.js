@@ -25,7 +25,7 @@ I18N.ko = {
   rankH:"이번 달 순위", rankNote:"다른 이용자는 예시입니다. 서버를 연결하면 실제 순위가 표시됩니다.", you:"나",
   settingsH:"설정", testMode:"테스트 모드", testHint:"켜면 GPS 없이 버튼만으로 도장을 찍을 수 있습니다. 집에서 시험할 때 쓰세요.",
   testOn:"테스트 모드 켜짐", testOff:"테스트 모드 꺼짐",
-  reset:"모든 데이터 초기화", resetQ:"도장, 칭호, 제보, 닉네임이 모두 지워집니다. 계속할까요?", resetYes:"모두 지우기",
+  reset:"모든 데이터 초기화", resetQ:"도장, 칭호, 제보, 닉네임과 서버 계정 연결이 모두 지워집니다. 되돌릴 수 없습니다. 계속할까요?", resetYes:"모두 지우기",
   // Добавление легенды
   addH:"전설 제보하기", fName:"장소 이름", fNamePh:"예: 서봉산 정상", fRegion:"지역",
   fPlace:"주소 또는 위치 설명", fPlacePh:"예: 화성시 향남읍",
@@ -62,5 +62,22 @@ I18N.ko = {
   findSend:"보내기", findSent:"보냈습니다", findSentTag:"보냄", findWaitTag:"처리 대기",
   findCopied:"위치를 복사했습니다. 사진을 길게 눌러 저장하세요.", findLongPress:"사진을 길게 눌러 저장한 뒤 메신저로 보내세요.", findShareErr:"공유하지 못했습니다",
   qDark:"사진이 너무 어둡습니다. 글자가 안 보일 수 있으니 다시 찍어 보세요.", qBlurry:"사진이 흔들린 것 같습니다. 다시 찍어 보세요.",
+  // Сервер
+  sending:"보내는 중…", nickTaken:"이미 사용 중인 닉네임입니다. 다른 닉네임을 입력하세요.", nickChanged:"닉네임이 이미 사용 중이어서 ‘{n}’(으)로 바꿨습니다. 내 정보에서 바꿀 수 있습니다.",
+  offlineBanner:"서버에 연결되지 않았습니다. 도장은 이 휴대폰에만 저장되고 점수와 순위에는 반영되지 않습니다.",
+  offlineNote:"서버에 연결되지 않아 이 휴대폰에만 저장했습니다. 점수는 쌓이지 않았습니다.", offlineTag:"오프라인",
+  ptsToast:"수집 +{c} · 산행 +{h}", walkedToast:"걸어서 오른 기록 인정!", bonusToast:"보너스 +{p}: {r}",
+  errAlready:"오늘은 이미 이곳에서 도장을 찍었습니다. 내일 다시 오세요!", errAcc:"GPS가 정확하지 않습니다(±{a}m). 잠시 기다리거나 트인 곳으로 나가 주세요.",
+  errTeleport:"이전 도장에서 너무 빨리 이동했습니다. 이 속도로는 올 수 없습니다.", errServer:"서버가 응답하지 않습니다. 다시 시도해 주세요.",
+  checkinAgain:"다시 도장 찍기 (산행 기록)", visitedTodayNote:"오늘은 이미 이곳에서 도장을 찍었습니다. 내일 다시 오면 산행 점수가 쌓입니다.",
+  diffLbl:"난이도: {d}점", keeperLbl:"이달의 지킴이: {n} ({c}회)", keeperNone:"아직 지킴이가 없습니다. 이번 달 3번 오면 지킴이가 될 수 있습니다.",
+  ascentBtn:"여기서 산행 시작", ascentHint:"등산로 입구에서 누르세요(정상에서 1km 이상). 걸어서 오르면 점수 ×1.5.", ascentOn:"{t}에 산행 시작", ascentGo:"정상에 도착하면 도장을 찍으세요. 4시간 안에 찍어야 합니다.", ascentFar:"장소와 너무 가깝습니다. 1km 이상 떨어진 곳에서 시작하세요.",
+  stColl:"수집 점수", stHikes:"이달 산행", boardColl:"수집 · 이달", boardHikes:"산행 · 이달", boardAll:"수집 · 전체", boardLoading:"불러오는 중…", boardEmpty:"아직 아무도 없습니다. 첫 번째가 되어 보세요!",
+  rankNoteServer:"순위는 서버가 계산합니다. 테스트 도장은 포함되지 않습니다.",
+  pendingTag:"검토 중", pendingNote:"검토 중인 전설입니다. 승인되면 모두에게 보이고 도장을 찍을 수 있습니다.",
+  fNoteServer:"사진과 함께 서버로 보내집니다. 검토 후 모두에게 공개되며 100점을 받습니다.", toastSubmitted:"전설을 보냈습니다. 검토 후 공개됩니다",
+  findsHintServer:"안내판 사진은 자동으로 서버에 올라갑니다. 검토 후 30점을 받습니다.", findOnServer:"서버에 올라감", findUploaded:"안내판 사진을 서버에 올렸습니다",
+  pinOkServer:"위치를 기록하고 서버에 보냈습니다. 확인 후 반영됩니다",
+  accountAnon:"지금은 이 휴대폰에 묶인 임시 계정입니다. 앱 데이터를 지우면 기록이 사라집니다. 곧 카카오 로그인이 추가됩니다.",
   locale:"ko-KR"
 };
