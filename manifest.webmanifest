@@ -1,7 +1,7 @@
 {
   "name": "누비 — 전설산책",
   "short_name": "누비",
-  "description": "전설이 깃든 장소를 찾아 걷고 도장을 모으는 앱",
+  "description": "우리 동네를 누비다 — 전설 따라 걷고, 도장 모으는 앱",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",
@@ -10,7 +10,23 @@
   "background_color": "#EEF2F1",
   "theme_color": "#2B4C86",
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

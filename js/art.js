@@ -167,7 +167,12 @@ window.Art = (function () {
     "hyoja-tiger":{time:"night", bg:"hills", m:"tiger"}, aegineung:{time:"dusk", bg:"hills", m:"smalltomb"},
     geumbul:{time:"dawn", bg:"hills", m:"buddha"}, yeogae:{time:"night", bg:"hills", m:"sisters"},
     mubongsan:{time:"day", bg:"hills", m:"phoenix"}, chilbosan:{time:"night", bg:"hills", m:"rooster"},
-    geumdang:{time:"dawn", bg:"hills", m:"goldpond"}, igon:{time:"day", bg:"none", m:"carp"}
+    geumdang:{time:"dawn", bg:"hills", m:"goldpond"}, igon:{time:"day", bg:"none", m:"carp"},
+    choerubaek:{time:"night", bg:"hills", m:"tiger"}, hongnang:{time:"dusk", bg:"sea", m:"temple"},
+    ssangbongsan:{time:"dusk", bg:"hills", m:"rocky"}, hyeongdo:{time:"dawn", bg:"sea", m:"island"}, cheondeungsan:{time:"night", bg:"hills", m:"temple"},
+    akgogae:{time:"dusk", bg:"sea", m:"port"}, norugogae:{time:"dawn", bg:"hills", m:"tree"}, bangamot:{time:"night", bg:"hills", m:"buddha"},
+    yongsudong:{time:"night", bg:"sea", m:"storm"}, nangseom:{time:"day", bg:"sea", m:"island"}, samjokri:{time:"dusk", bg:"hills", m:"smalltomb"},
+    yukgyodong:{time:"day", bg:"none", m:"pavilion"}, bakjangcheol:{time:"night", bg:"hills", m:"tiger"}
   };
 
   // Собрать SVG для легенды
@@ -185,12 +190,18 @@ window.Art = (function () {
 
   // Готовые картинки (если художник/нейросеть нарисует) — перечислить id тут,
   // положить файл в img/legends/<id>.webp, и он заменит рисунок.
-  const ART_IMAGES = [];
+  // Сейчас: иллюстрации в стиле минхва (Leonardo AI), 41 штука.
+  // Большая — img/legends/<id>.webp (960×548), маленькая для списка — img/legends/thumb/<id>.webp (168×168).
+  const ART_IMAGES = ["aegineung","akgogae","arang","bakjangcheol","bangamot","bonghyeol","bugyang","chamseong","cheondeungsan","chilbosan","choerubaek","dangseong","emille","geolleung","geondalsan","geumbul","geumdang","hongnang","hwaseong","hyeongdo","hyoja-tiger","igon","jebudo","jeunggeo","jinesan","joam","mubongsan","nangseom","norugogae","nunmul","salgoji","samcheon","samjokri","seobongsan","ssangbongsan","swingil","yeogae","yongju","yongsudong","yukgyodong","yungneung"];
 
   return {
-    // HTML карточки: картинка-файл, если есть, иначе рисунок
+    // HTML карточки: картинка-файл, если есть, иначе рисунок.
+    // Для миниатюр в списке берём лёгкую версию, чтобы список грузился быстро.
     html(id, cls = "") {
-      if (ART_IMAGES.includes(id)) return `<img class="art ${cls}" src="img/legends/${id}.webp" alt="">`;
+      if (ART_IMAGES.includes(id)) {
+        const src = (cls === "thumb" || cls === "stamp-art") ? `img/legends/thumb/${id}.webp` : `img/legends/${id}.webp`;
+        return `<img class="art ${cls}" src="${src}" alt="" loading="lazy" decoding="async">`;
+      }
       if (!SCENES[id]) return `<div class="art art-none ${cls}"></div>`;
       return `<div class="art ${cls}">${svg(id)}</div>`;
     },

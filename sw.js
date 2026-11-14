@@ -1,7 +1,7 @@
 // Service worker: делает приложение устанавливаемым и позволяет открывать его без интернета.
 // Стратегия «сначала сеть»: если интернет есть — всегда берём свежие файлы (обновления видны сразу),
 // если нет — показываем сохранённую копию.
-const CACHE = "nubi-v6";
+const CACHE = "nubi-v10";
 
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(
