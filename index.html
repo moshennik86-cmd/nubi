@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>누비</title>
+<!-- Нуби переехал на новый адрес. Эта страница сразу отправляет туда (с тем же путём). -->
+<meta property="og:title" content="누비">
+<meta property="og:image" content="https://dmitriyaripovdev-web.github.io/nubi/img/og.jpg">
+<meta property="og:url" content="https://dmitriyaripovdev-web.github.io/nubi/">
+<link rel="canonical" href="https://dmitriyaripovdev-web.github.io/nubi/">
+<script>
+  // Старый адрес с тем же хвостом → новый адрес
+  var rest = location.pathname.replace(/^\/nubi\/?/, "");
+  location.replace("https://dmitriyaripovdev-web.github.io/nubi/" + rest + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://dmitriyaripovdev-web.github.io/nubi/">
+</head>
+<body style="font-family:sans-serif;background:#0f141b;color:#eee;text-align:center;padding-top:30vh">
+  <p>누비가 새 주소로 이사했어요 →
+  <a style="color:#8fb4ff" href="https://dmitriyaripovdev-web.github.io/nubi/">dmitriyaripovdev-web.github.io/nubi</a></p>
+</body>
+</html>
